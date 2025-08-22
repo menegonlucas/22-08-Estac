@@ -1,8 +1,8 @@
 const express = require('express');
 const routes = express.Router();
 
-const Veiculo = require('./controllers/veiculo.js');
-const Estadia = require('./controllers/estadia.js');
+const Veiculo = require('./controllers/veiculo');
+const Estadia = require('./controllers/estadia');
 
 routes.get('/', (req, res) => {
     const api = {
