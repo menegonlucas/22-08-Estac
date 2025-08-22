@@ -19,5 +19,3 @@ Para front-end, utilizamos o **GitHub Pages**. Para o back-end, usaremos a Verce
 - [GitHub](https://github.com/)
 - [Vercel](https://vercel.com/)
 
----
-
