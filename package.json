@@ -1,8 +1,15 @@
 {
+  "name": "estacionamentoapi",
+  "version": "1.0.0",
+  "main": "api/server.js",
   "scripts": {
     "dev": "npx nodemon api/server.js",
     "postinstall": "prisma migrate dev --name init && prisma generate"
   },
+  "keywords": [],
+  "author": "Lucas Menegon",
+  "license": "ISC",
+  "description": "Projeto de Estacionamento API, para aulas de Node.js",
   "dependencies": {
     "@prisma/client": "^6.14.0",
     "cors": "^2.8.5",
