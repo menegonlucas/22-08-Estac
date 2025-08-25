@@ -20,7 +20,7 @@ routes.get('/', (req, res) => {
             { metodo: 'PATCH', caminho: '/estadias/:id' },
             { metodo: 'DELETE', caminho: '/estadias/:id' }
         ]
-    }
+    };
     res.json(api);
 });
 
